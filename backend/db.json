@@ -1,0 +1,22 @@
+{
+  "Produtos": [
+    {
+      "id": 1,
+      "nome": "Livro de Angular",
+      "genero": "Estudos",
+      "preco": 199.99
+    },
+    {
+      "id": 2,
+      "nome": "Livro de jAVA",
+      "genero": "Estudos",
+      "preco": 250
+    },
+    {
+      "id": 3,
+      "nome": "Livro de Power Bi",
+      "genero": "Estudos",
+      "preco": 399.99
+    }
+  ]
+}
