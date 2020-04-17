@@ -10,7 +10,7 @@ Usar o commando  npm start dentro do diretório Backend para inicializar o json-
 
 Abrir nova aba do terminal, navegar até o diretório frontend e executar o comando ng serve dentro do diretorio frontend.
 
-#Rotas
+# Rotas
 
 http://localhost:4200/home
 http://localhost:4200/usuario
