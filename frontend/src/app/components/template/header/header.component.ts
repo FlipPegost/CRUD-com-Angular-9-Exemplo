@@ -1,3 +1,4 @@
+import { HeaderService } from './header.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,19 +8,24 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
-  public texto:string 
+  constructor(private headerService: HeaderService) { }
+  
   
   ngOnInit(): void {
-    this.texto = "toggle_off"
+  
   }
-  clicou(){
-    if (this.texto == "toggle_off")
-    {
-      this.texto = "toggle_on"
-    }else {
-      this.texto ="toggle_off"
-    }
+
+  get routerUrl (): string{
+    return this.headerService.headerData.routerUrl
+    
+  }
+  
+  get icon (): string{
+    return this.headerService.headerData.icon
+  }
+  
+  get title (): string{
+    return this.headerService.headerData.title
   }
   
 }
