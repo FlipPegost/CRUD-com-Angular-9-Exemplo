@@ -13,8 +13,7 @@
 
 ## Para rodar o projeto
 ### É necessário:
-* Abrir PowerShel com  cltr+' ;
-* Usar o commando  npm start dentro do diretório Backend para inicializar o json-server;
+* Usar o commando  npm start -> (executa o script start dentro do package.json) dentro do diretório Backend para inicializar o json-server;
 * Abrir nova aba do terminal, navegar até o diretório frontend e executar o comando ng serve dentro do diretorio frontend.
 
 ## Rotas
